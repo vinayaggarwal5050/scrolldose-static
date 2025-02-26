@@ -7,3 +7,4 @@ sudo docker run -d --restart=always --name nginx-server -p 80:80 -p 443:443 -v /
 # giving permssion to agent node user
 sudo usermod -aG docker $USER && newgrp docker
 
+#
